@@ -4,4 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Map\" />
+    <Folder Include="Images\" />
+    <Folder Include="Shapes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MacFileUtils\MacFileUtils\MacFileUtils.csproj" />
+  </ItemGroup>
+
 </Project>
