@@ -7,9 +7,9 @@ namespace MarathonFileUtils.Sounds
         public SoundId ID {  get; private set; }
         public List<SoundPermutation> Samples { get; private set; }
 
-        public SoundSlot(SoundId iD, List<SoundPermutation> samples)
+        public SoundSlot(SoundId id, List<SoundPermutation> samples)
         {
-            ID = iD;
+            ID = id;
             Samples = samples;
         }
     }
