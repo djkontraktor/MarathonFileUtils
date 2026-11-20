@@ -12,30 +12,24 @@ namespace MarathonFileUtils.Sounds
 
         #region Public Members
 
-        public static void OpenM1SoundFile(string filePath)
+        public static List<SoundDefinition> OpenM1SoundFile(string filePath)
         {
-            using (SoundsFileRaw soundFile = new M1SoundsFileRaw())
+            List<SoundDefinition> results = new List<SoundDefinition>();
+
+            using (M1SoundsFileRaw soundFile = new M1SoundsFileRaw())
             {
-                //// Extensionless
-                //MacFileSpecifier file = new MacFileSpecifier(filePath);
+                // Extensionless
+                MacFileSpecifier file = new MacFileSpecifier(filePath);
 
-                //if (!soundFile.Open(file))
-                //{
-                //    throw new InvalidOperationException("No valid resource file was found.");
-                //}
+                if (!soundFile.Open(file))
+                {
+                    throw new InvalidOperationException("No valid resource file was found.");
+                }
 
-                //int soundIndex = 1;
-
-                //definition = soundFile.GetSoundDefinition(source: 0, soundIndex);
-
-                //int permutation = 0;
-
-                //byte[] pcmData = definition == null ? null : soundFile.GetSoundData(definition, permutation);
-
-                //header = soundFile.GetSoundHeader(definition, permutation);
-
-                //return pcmData;
+                results = OpenSoundsFileBase(soundFile);
             }
+
+            return results;
         }
 
         public static List<SoundDefinition> OpenM2SoundFile(string filePath)
@@ -52,55 +46,64 @@ namespace MarathonFileUtils.Sounds
                     throw new InvalidOperationException("The sound file could not be opened.");
                 }
 
-                for (int source = 0; source < soundFile.SourceCount; source++)
-                {
-                    foreach (int soundIndex in soundFile.GetSoundIndices(source))
-                    {
-                        SoundDefinitionRaw definition = soundFile.GetSoundDefinition(source, soundIndex);
+                results = OpenSoundsFileBase(soundFile);
+            }
 
-                        if (definition == null)
+            return results;
+        }
+
+        private static List<SoundDefinition> OpenSoundsFileBase(SoundsFileRaw soundFile)
+        {
+            List<SoundDefinition> results = new List<SoundDefinition>();
+
+            for (int source = 0; source < soundFile.SourceCount; source++)
+            {
+                foreach (int soundIndex in soundFile.GetSoundIndices(source))
+                {
+                    SoundDefinitionRaw definition = soundFile.GetSoundDefinition(source, soundIndex);
+
+                    if (definition == null)
+                    {
+                        continue;
+                    }
+
+                    SoundDefinition maraSoundDefinition = new SoundDefinition
+                    {
+                        Source = source,
+                        SoundIndex = soundIndex,
+                        Definition = definition,
+                    };
+
+                    int permutationCount = GetValidPermutationCount(definition);
+
+                    for (int permutation = 0; permutation < permutationCount; permutation++)
+                    {
+                        SoundsFileHeader header = soundFile.GetSoundHeader(definition, permutation);
+
+                        if (header == null)
                         {
                             continue;
                         }
 
-                        SoundDefinition maraSoundDefinition = new SoundDefinition
+                        byte[] data = soundFile.GetSoundData(definition, permutation);
+
+                        if (data == null)
+                        {
+                            continue;
+                        }
+
+                        maraSoundDefinition.Permutations.Add(new SoundPermutation
                         {
                             Source = source,
                             SoundIndex = soundIndex,
+                            Permutation = permutation,
                             Definition = definition,
-                        };
-
-                        int permutationCount = GetValidPermutationCount(definition);
-
-                        for (int permutation = 0; permutation < permutationCount; permutation++)
-                        {
-                            SoundsFileHeader header = soundFile.GetSoundHeader(definition, permutation);
-
-                            if (header == null)
-                            {
-                                continue;
-                            }
-
-                            byte[] data = soundFile.GetSoundData(definition, permutation);
-
-                            if (data == null)
-                            {
-                                continue;
-                            }
-
-                            maraSoundDefinition.Permutations.Add(new SoundPermutation
-                            {
-                                Source = source,
-                                SoundIndex = soundIndex,
-                                Permutation = permutation,
-                                Definition = definition,
-                                Header = header,
-                                Data = data,
-                            });
-                        }
-
-                        results.Add(maraSoundDefinition);
+                            Header = header,
+                            Data = data,
+                        });
                     }
+
+                    results.Add(maraSoundDefinition);
                 }
             }
 
