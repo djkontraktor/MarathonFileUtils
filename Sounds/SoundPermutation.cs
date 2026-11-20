@@ -1,4 +1,6 @@
-﻿namespace MarathonFileUtils.Sounds
+﻿using MarathonFileUtils.Sounds.LowLevel;
+
+namespace MarathonFileUtils.Sounds
 {
     public class SoundPermutation
     {

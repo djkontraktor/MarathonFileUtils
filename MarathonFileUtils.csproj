@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\MacFileUtils\MacFileUtils\MacFileUtils.csproj" />
+  </ItemGroup>
+
 </Project>

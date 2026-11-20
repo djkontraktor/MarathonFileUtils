@@ -1,4 +1,5 @@
-﻿using MarathonFileUtils.Sounds.LowLevel;
+﻿using MacFileUtils;
+using MarathonFileUtils.Sounds.LowLevel;
 using System.Text;
 
 namespace MarathonFileUtils.Sounds

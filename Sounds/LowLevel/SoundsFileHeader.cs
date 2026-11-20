@@ -1,4 +1,6 @@
-﻿namespace MarathonFileUtils.Sounds.LowLevel
+﻿using MacFileUtils;
+
+namespace MarathonFileUtils.Sounds.LowLevel
 {
     public class SoundsFileHeader : SoundInfo
     {
