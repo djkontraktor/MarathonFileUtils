@@ -3,10 +3,8 @@ using System.Linq;
 
 namespace MarathonFileUtils.Sounds
 {
-    public class M2SoundsFile
+    public class M2SoundsFile : SoundsFile
     {
-        public List<SoundSlot> SoundSlots = new List<SoundSlot>();
-
         public M2SoundsFile(string filePath)
         {
             List<SoundDefinition> definitions = Utils.OpenM2SoundFile(filePath);

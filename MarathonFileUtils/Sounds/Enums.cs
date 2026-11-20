@@ -9,4 +9,10 @@
         Dolby_6_1 = 7,
         Dolby_7_1 = 8,
     }
+
+    public enum SoundsFileFormat
+    {
+        M1,
+        M2,
+    }
 }
