@@ -85,7 +85,7 @@
 			new SoundId(20060, 20060, "Hunter Falling"), // Sample rate: 11025
 			new SoundId(20070, 20070, "Pfhor Switch Off"), // Sample rate: 22050
 			new SoundId(20080, 20080, "Pfhor Switch On"), // Sample rate: 22050
-			new SoundId(20090, 20090, "Pfhor Switch Locked"), // Sample rate: 22050
+			new SoundId(20090, 20090, "Pfhor Energy Refuel"), // Sample rate: 22050
 			new SoundId(20100, 20100, "Hunter Projectile Impact"), // Sample rate: 22050
 			new SoundId(20110, 20110, "Juggernaut Dying"), // Sample rate: 22050
 			new SoundId(20120, 20120, "Wasp Flapping"), // Sample rate: 11025
