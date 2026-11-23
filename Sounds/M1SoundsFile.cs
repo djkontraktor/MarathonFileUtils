@@ -5,33 +5,7 @@
         public M1SoundsFile(string filePath)
         {
             List<SoundDefinition> definitions = Utils.OpenM1SoundFile(filePath);
-
-            foreach (SoundDefinition def in definitions)
-            {
-                List<SoundPermutation> permutations = new List<SoundPermutation>();
-                short soundCode = -1;
-
-                foreach (SoundPermutation sound in def.Permutations)
-                {
-                    int bitsPerSample = sound.Header.BitsPerSample;
-                    bool stereo = sound.Header.Stereo;
-                    soundCode = sound.Definition.SoundCode;
-                    int numSlots = def.Permutations.Count;
-                    int slotNum = sound.Permutation + 1;
-                    permutations.Add(sound);
-                }
-
-                try
-                {
-                    SoundId soundId = M1SoundIds.IDs.Where(i => i.Id == soundCode).First();
-                    SoundSlot soundSlot = new SoundSlot(soundId, permutations);
-                    SoundSlots.Add(soundSlot);
-                }
-                catch (Exception ex)
-                {
-
-                }
-            }
+            LoadSoundsFileBase(definitions, M1SoundIds.IDs);
         }
     }
 }
