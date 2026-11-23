@@ -1,0 +1,239 @@
+﻿Id,Index,Name,SampleRate
+10000,1,Teleport In,22050
+10010,2,Teleport Out,22050
+10020,3,Crushing,22050
+14260,4,Salinger Ship Creak,11025
+10030,5,Absorbed,22050
+10030,5,Absorbed,22050
+10040,7,Oxygen Warning,22050
+10050,8,Suffocation,11025
+10060,9,Energy Refuel,22050
+10070,10,Oxygen Refuel,22050
+10080,11,UESC Switch Locked,22050
+10090,12,UESC Switch On,22050
+10100,13,UESC Switch Off,22050
+10110,14,Pattern Switch,22050
+10120,15,Chip Insertion,22050
+10130,16,Pattern Buffer,22050
+11280,17,Destroy Control Panel,22050
+10150,18,Volume Adjust,22050
+10160,19,Got Powerup,22050
+10170,20,Got Item,22050
+11000,21,Bullet Ricochet,22050
+11010,22,Metallic Ricochet,22050
+11020,23,Empty Gun,22050
+12000,24,UESC Door Open,22050
+12010,25,UESC Door Close,22050
+12020,26,UESC Door Locked,22050
+12030,27,UESC Platform Start,22050
+12040,28,UESC Platform Stop,22050
+14540,29,Mouse,22050
+18000,30,SMG Firing,22050
+18010,31,Assault Rifle Firing,22050
+12080,32,UESC Platform Heavy Start,22050
+12090,33,UESC Platform Heavy Stop,22050
+11030,34,Fist Impact,22050
+11040,35,Magnum Firing,22050
+11050,36,Magnum Reloading,22050
+11060,37,Assault Rifle Firing New,44100
+11070,38,Grenade Firing,22050
+11080,39,Grenade Exploding,22050
+11090,40,Grenade Flyby,22050
+11100,41,Fusion Firing,22050
+11110,42,Fusion Impact,22050
+11120,43,Fusion Flyby,22050
+11130,44,Fusion Charging,22050
+11140,45,Rocket Exploding,22050
+11150,46,Rocket Flyby,22050
+11160,47,Rocket Firing,22050
+11170,48,Maser Firing,44100
+11180,49,Body Falling,22050
+11190,50,Mopping,22050
+11200,51,Bullet Hitting Flesh,22050
+15300,52,Pfhor Activate,22050
+15310,53,Pfhor Flaming Death,22050
+15320,54,Pfhor Death,22050
+15330,55,Pfhor Chatter,22050
+15340,56,Chuff,22050
+15350,57,Fighter Staff Impact,22050
+15360,58,Fighter Projectile Flyby,22050
+15200,59,Spht Firing,22050
+15210,60,Spht Death,22050
+15220,61,Spht Hit,22050
+15230,62,Spht Projectile Flyby,22050
+15240,63,Spht Projectile Impact,22050
+15100,64,Hulk Chatter,22050
+15110,65,Hulk Chatter,22050
+15120,66,Hulk Chatter,22050
+15130,67,Hulk Death,11025
+15140,68,Grenade Bounce,22050
+15150,69,Pfhor Grenade Explode,22050
+15150,69,Pfhor Grenade Explode,22050
+15000,71,Drone Activate,44100
+15010,72,Drone Start Firing,22050
+15020,73,Drone Firing,22050
+15030,74,Drone Falling,22050
+15040,75,Drone Death,22050
+15050,76,Drone Projectile Impact,22050
+15060,77,Drone Projectile Flyby,22050
+15400,78,Human Flaming Death,22050
+15410,79,Human Death,22050
+15420,80,Human Hit,22050
+15430,81,Human Follow Me,22050
+15440,82,Human Assimilated Chatter,22050
+15450,83,Human Kill,22050
+15460,84,Human Apology,22050
+15470,85,Human Activation,22050
+15480,86,Human Move,22050
+15490,87,Human Stop shooting me ya bastard,22050
+15500,88,Human Teleport Out,22050
+15510,89,Human Kill the player,22050
+14000,90,Dramatic Music,22050
+14010,91,Sewage,22050
+14020,92,Computer Room,44100
+14030,93,Goo,22050
+14040,94,Underwater,22050
+14050,95,Wind,22050
+14060,96,Waterfall,22050
+14070,97,UESC Alarm,44100
+14080,98,Fan,22050
+14080,98,Fan,22050
+14100,100,UESC Platform,22050
+14120,101,Booming Drone,22050
+14130,102,UESC Platform Heavy,22050
+14140,103,Light Machinery,22050
+14150,104,Heavy Machinery,22050
+14160,105,Computer Room 2,22050
+14170,106,Sparking Transformer,22050
+14500,107,Water Drip,22050
+19000,108,Walking in Water,22050
+19010,109,Water Emerge,22050
+19020,110,Water Submerge,22050
+19100,111,Small Water Splash,22050
+11430,112,Looker Chatter,22050
+19120,113,Large Water Splash,22050
+19120,113,Large Water Splash,22050
+19060,115,Lava Emerge,22050
+19070,116,Lava Submerge,22050
+19130,117,Small Lava Splash,22050
+19130,117,Small Lava Splash,22050
+19150,119,Large Lava Splash,22050
+19150,119,Large Lava Splash,22050
+19180,121,Sewage Emerge,22050
+19170,122,Sewage Submerge,22050
+19190,123,Small Sewage Splash,22050
+19190,123,Small Sewage Splash,22050
+19210,125,Large Sewage Splash,22050
+19210,125,Large Sewage Splash,22050
+11440,127,Wasp Firing,22050
+11450,128,Wasp Death,22050
+11460,129,Big Gun Firing,22050
+11460,129,Big Gun Firing,22050
+11400,131,Fusion Reload,44100
+11290,132,Fusion Charged Firing,22050
+11330,133,Fusion Charged Beep,22050
+11210,134,Assault Rifle Reloading,22050
+11270,135,Shell Casings,22050
+11220,136,Shotgun Firing,22050
+11230,137,Shotgun Reloading,22050
+11300,138,Ducky,22050
+11310,139,Youre It,22050
+11320,140,Ducks,22050
+11240,141,Terminal Logon,22050
+11250,142,Terminal Logon,22050
+11260,143,Terminal Page,22050
+13000,144,Spht Door Heavy,22050
+13010,145,Spht Door Heavy Start,22050
+13020,146,Spht Door Heavy Start Close,22050
+13030,147,Spht Door Heavy Opened,22050
+13040,148,Spht Door Heavy Shut,22050
+13050,149,Spht Door Heavy Locked,22050
+15600,150,Hunter Activate,11025
+15610,151,Hunter Firing,22050
+10140,152,Maser Impact,44100
+15630,153,Hunter Falling,22050
+15640,154,Hunter Exploding,22050
+15650,155,Hunter Projectile Impact,22050
+15660,156,Hunter Projectile Flyby,22050
+15700,157,Enforcer Activate,22050
+15710,158,Enforcer Firing,22050
+15720,159,Enforcer Firing,22050
+15730,160,Enforcer Projectile Impact,22050
+15800,161,Cleanroom Bob Chatter,22050
+15810,162,Scratch,22050
+15820,163,Cleanroom Bob Activate,22050
+15860,164,Cleanroom Bob Hit,22050
+11340,165,Cleanroom Bob Chatter 2,22050
+15830,166,Lava Bolt Impact,22050
+15840,167,Lava Bolt Flyby,22050
+15850,168,Cleanroom Bob Death,22050
+14180,169,Big Fan,22050
+14190,170,Swamp,22050
+14200,171,Vacuum Booming,22050
+14210,172,Computer Room 3,44100
+14220,173,Loud Alarm,22050
+14230,174,Night Wind,22050
+14510,175,Computer Beeps,22050
+14520,176,Underground Explosion,22050
+16000,177,Spht Kr Firing,22050
+16010,178,Spht Kr Projectile Impact,22050
+16020,179,Spht Kr Projectile Flyby,22050
+16030,180,Flame,22050
+16040,181,Spht Kr Death,22050
+17000,182,Mouse Death,44100
+11410,183,Mortar Firing,22050
+17020,184,Wings Flapping,11025
+11420,185,Mortar Reloading,22050
+14530,186,Lamp Breaking,22050
+14545,187,Pfhor Platform Starting,22050
+14550,188,Pfhor Platform Stopping,22050
+14560,189,Pfhor Platform,22050
+14570,190,Pfhor Door Closing,22050
+14580,191,Pfhor Door Opening,22050
+14590,192,Pfhor Door Locked,22050
+14600,193,Pfhor Door,22050
+14610,194,Pfhor Switch Off,22050
+14620,195,Pfhor Switch Off,22050
+14630,196,Big Boomy Fire,22050
+14640,197,Juggernaut Beep,22050
+14650,198,Juggernaut Exploding,11025
+14660,199,Juggernaut Launching,44100
+14670,200,Enforcer Exploding,22050
+14240,201,Pfhor Ship 1,44100
+14250,202,Pfhor Ship 2,44100
+18100,203,VacBob Flaming Death,22050
+18110,204,VacBob Death,22050
+18120,205,VacBob Hit,22050
+18130,206,VacBob Activate,22050
+18140,207,VacBob Assimilated Chatter,22050
+18150,208,VacBob Kill,22050
+18160,209,VacBob Sorry,22050
+18170,210,VacBob Activate,22050
+18180,211,VacBob Move,22050
+18190,212,VacBob Stop shooting me ya bastard,22050
+18200,213,VacBob Teleport Out,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050
+18210,214,VacBob Kill the player,22050

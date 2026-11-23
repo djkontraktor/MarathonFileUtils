@@ -9,6 +9,7 @@
   <ItemGroup>
     <None Remove="Sounds\SoundIds\M1.csv" />
     <None Remove="Sounds\SoundIds\M2.csv" />
+    <None Remove="Sounds\SoundIds\Rubicon.csv" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +17,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Sounds\SoundIds\M2.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\SoundIds\Rubicon.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
