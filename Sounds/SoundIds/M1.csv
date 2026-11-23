@@ -1,0 +1,90 @@
+﻿Id,Index,Name,SampleRate
+1000,1000,Marathon Door Closing,22050
+1010,1010,Marathon Door Opening,22050
+1020,1020,Marathon Door Locked,22050
+1030,1030,Magnum Firing,22050
+1040,1040,Magnum Reloading,22050
+1050,1050,Bullet Ricochet,22050
+1070,1070,Hunter Activate,11025
+1080,1080,Wasp Projectile Impact,22050
+1090,1090,Body Falling,22050
+1110,1110,Fist Impact,22050
+1160,1160,Got Powerup,22050
+1170,1170,Got Item,11025
+1180,1180,Empty Gun,22050
+1200,1200,Bullet Hitting Flesh,22050
+1210,1210,Body Exploding,11025
+1220,1220,Absorbed,22050
+1230,1230,Metallic Ricochet,11025
+1240,1240,Title,11025
+1250,1250,Switch Off,22050
+1260,1260,Grenade Firing,22050
+1270,1270,Rocket Exploding,22050
+1280,1280,Switch On,22050
+1290,1290,Rocket Flyby,22050
+1310,1310,Assault Rifle Firing,22050
+1330,1330,Hunter Firing,22050
+1350,1350,Spht Projectile Flyby,22050
+1360,1360,Spht Projectile Firing,22050
+1370,1370,Spht Hit,22050
+1380,1380,Spht Projectile Impact,22050
+1390,1390,Spht Death,22050
+1400,1400,Human Hit,22050
+1410,1410,Human Theyre Everywhere,22050
+1415,1415,Human Thank God its you,22050
+1420,1420,Human Death,22050
+1430,1430,Human Flaming Death,22050
+1440,1440,Hulk Death,11025
+2000,2000,Adjust Volume,22050
+2010,2010,Teleport Out,22050
+2020,2020,Teleport In,22050
+2030,2030,Enforcer Firing,22050
+2040,2040,Pfhor Flaming Death,22050
+2050,2050,Rocket Firing,22050
+2080,2080,Grenade Exploding,22050
+2090,2090,Grenade Flyby,22050
+2100,2100,Flamethrower,22050
+2130,2130,Hulk Attack,11025
+2150,2150,Pfhor Flaming Death Low,22050
+2160,2160,Fusion Impact,11025
+2170,2170,Fusion Firing,22050
+2180,2180,Pfhor Staff Impact,22050
+2190,2190,Pfhor Projectile Flyby,22050
+2200,2200,Fusion Flyby,22050
+2210,2210,Fusion Charging,22050
+2230,2230,Terminal Logon Logoff,11025
+2232,2232,Terminal Page,22050
+2240,2240,Marathon Platform Stop,11025
+2250,2250,Marathon Platform Start,11025
+2260,2260,Pfhor Door Open,22050
+2270,2270,Pfhor Door Locked,22050
+2280,2280,Pfhor Door Closing,22050
+2290,2290,Energy Refuel,22050
+2295,2295,Oxygen Refuel,22050
+2310,2310,Crushing,22050
+2320,2320,Looker Activate,22050
+2330,2330,Fighter Launch Projectile,11025
+3000,3000,Enforcer Activate,22050
+3010,3010,Pfhor Death,22050
+3020,3020,Pfhor Activate,11025
+4000,4000,Trooper Rifle Firing,22050
+4010,4010,Looker Exploding,22050
+4040,4040,Hunter Projectile Flyby,22050
+5000,5000,Metallic Ricochet,22050
+20000,20000,Wasp Projectile Launch,22050
+20010,20010,Wasp Dying,22050
+20020,20020,Wasp Dying,22050
+20030,20030,Pfhor Platform Starting,11025
+20040,20040,Pfhor Platform Stopping,11025
+20050,20050,Hunter Exploding,11025
+20060,20060,Hunter Falling,11025
+20070,20070,Pfhor Switch Off,22050
+20080,20080,Pfhor Switch On,22050
+20090,20090,Pfhor Energy Refuel,22050
+20100,20100,Hunter Projectile Impact,22050
+20110,20110,Juggernaut Dying,22050
+20120,20120,Wasp Flapping,11025
+20130,20130,Juggernaut Missile Firing,11025
+20140,20140,Puzzle Switch,22050
+20180,20180,Switch Locked,22050
+20190,20190,Suffocation,11025

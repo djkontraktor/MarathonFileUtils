@@ -7,6 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Sounds\SoundIds\M1.csv" />
+    <None Remove="Sounds\SoundIds\M2.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sounds\SoundIds\M1.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\SoundIds\M2.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\MacFileUtils\MacFileUtils\MacFileUtils.csproj" />
   </ItemGroup>
 

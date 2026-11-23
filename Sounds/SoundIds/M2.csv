@@ -1,0 +1,216 @@
+﻿Id,Index,Name
+-1,0,Startup
+10000,1,Teleport In
+10010,2,Teleport Out
+10020,3,Crushed
+10030,5,Absorbed
+-1,6,Breathing
+10040,7,Oxygen Warning
+10050,8,Suffocation
+10060,9,Energy Refuel
+10070,10,Oxygen Refuel
+10080,11,Can’t Toggle Switch
+10090,12,Switch On
+10100,13,Switch Off
+10110,14,Puzzle Switch
+10120,15,Chip Insertion
+10130,16,Pattern Buffer
+10150,18,Adjust Volume
+10160,19,Got Powerup
+10170,20,Get Item
+11000,21,Bullet Ricochet
+11010,22,Metallic Ricochet
+11020,23,Empty Gun
+11030,34,Fist Hitting
+11040,35,Magnum Firing
+11050,36,Magnum Reloading
+11060,37,Assault Rifle Firing
+11070,38,Grenade Launcher Firing
+11080,39,Grenade Exploding
+11090,40,Grenade Flyby
+11100,41,Fusion Pistol Firing
+11110,42,Fusion Exploding
+11120,43,Fusion Flyby
+11130,44,Fusion Charging
+11140,45,Rocket Exploding
+11150,46,Rocket Flyby
+11160,47,Rocket Firing
+11170,48,Flamethrower
+11180,49,Body Falling
+11190,50,Body Exploding
+11200,51,Bullet Hit Flesh
+-1,70,Cyborg Projectile Flyby
+-1,99,S’pht Door
+-1,112,Medium Water Splash
+-1,114,Walking in Lava
+-1,118,Medium Lava Splash
+-1,120,Walking in Sewage
+-1,124,Medium Sewage Splash
+-1,126,Walking in Goo
+-1,127,Exiting Goo
+-1,128,Entering Goo
+-1,129,Small Goo Splash
+-1,130,Medium Goo Splash
+-1,131,Large Goo Splash
+11210,134,Assault Rifle Reloading
+11220,136,Shotgun Firing
+11230,137,Shotgun Reloading
+11240,141,Computer Login
+11250,142,Computer Logout
+11260,143,Computer Page
+-1,150,Hunter Activate
+-1,152,Hunter Dying
+-1,165,F’lickta Projectile Sewage Flyby
+-1,183,Tick Falling
+-1,185,Tick Exploding
+11270,135,Assault Rifle Shell Casings
+11280,17,Destroy Control Panel
+11290,132,Fusion Pistol Firing Charged
+11300,138,Ball Bounce
+11310,139,You Are It
+11320,140,Got Ball
+11330,133,Major Fusion Charged
+12000,24,S’pht Door Closing
+12010,25,S’pht Door Opening
+12020,26,S’pht Door Obstructed
+12030,27,S’pht Platform Starting
+12040,28,S’pht Platform Stopping
+12080,32,Heavy S’pht Platform Starting
+12090,33,Heavy S’pht Platform Stopping
+13000,144,Heavy S’pht Door
+13010,145,Heavy S’pht Door Opening
+13020,146,Heavy S’pht Door Closing
+13030,147,Heavy S’pht Door Open
+13040,148,Heavy S’pht Door Closed
+13050,149,Heavy S’pht Door Obstructed
+14000,90,Water
+14010,91,Sewage
+14020,92,Lava
+14030,93,Goo
+14040,94,Underwater
+14050,95,Wind
+14060,96,Waterfall
+14070,97,Siren
+14080,98,Fan
+14100,100,S’pht Platform
+14120,101,Alien Harmonics (Jjaro Ship)
+14130,102,Heavy S’pht Platform
+14140,103,Light Machinery
+14150,104,Heavy Machinery
+14160,105,Transformer
+14170,106,Sparking Transformer
+14180,169,Machine Binder
+14190,170,Machine Bookpress
+14200,171,Machine Puncher
+14210,172,Electric Hum
+14220,173,Alarm
+14230,174,Night Wind
+14240,201,Alien Noise 1 (Pfhor Ship #1)
+14250,202,Alien Noise 2 (Pfhor Ship #2)
+14260,4,Jjaro Ship Creak
+14500,107,Water Drip
+14510,175,Surface Explosion (Thunder)
+14520,176,Underground Explosion
+14530,186,Lamp Exploding
+14540,29,Loon
+14545,187,Pfhor Platform Starting
+14550,188,Pfhor Platform Stopping
+14560,189,Pfhor Platform
+14570,190,Pfhor Door Closing
+14580,191,Pfhor Door Opening
+14590,192,Pfhor Door Obstructed
+14600,193,Pfhor Door
+14610,194,Pfhor Switch On
+14620,195,Pfhor Switch Off
+14630,196,Juggernaut Firing
+14640,197,Juggernaut Warning
+14650,198,Juggernaut Exploding
+14660,199,Juggernaut Start Attack
+14670,200,Enforcer Exploding
+15000,71,Drone Activate
+15010,72,Drone Start Attack
+15020,73,Drone Attack
+15030,74,Drone Dying
+15040,75,Drone Death
+15050,76,Drone Projectile Hit
+15060,77,Drone Projectile Flyby
+15100,64,Cyborg Moving
+15110,65,Cyborg Attack
+15120,66,Cyborg Hit
+15130,67,Cyborg Death
+15140,68,Cyborg Projectile Bounce
+15150,69,Cyborg Projectile Hit
+15200,59,S’pht Attack
+15210,60,S’pht Death
+15220,61,S’pht Hit
+15230,62,S’pht Projectile Flyby
+15240,63,S’pht Projectile Hit
+15300,52,Fighter Activate
+15310,53,Fighter Wail
+15320,54,Fighter Scream
+15330,55,Fighter Chatter
+15340,56,Fighter Attack
+15350,57,Fighter Projectile Hit
+15360,58,Fighter Projectile Flyby
+15400,78,Bob Wail
+15410,79,Bob Scream
+15420,80,Bob Hit
+15430,81,Bob Chatter
+15440,82,Assimilated Bob Chatter
+15450,83,Bob Trash Talk
+15460,84,Bob Apology
+15470,85,Bob Activation
+15480,86,Bob Clear
+15490,87,Bob Angry (Stop Shooting Me You Bastard)
+15500,88,Bob Secure
+15510,89,Bob Kill the Player
+15610,151,Hunter Attack
+15630,153,Hunter Landing
+15640,154,Hunter Exploding
+15650,155,Hunter Projectile Hit
+15660,156,Hunter Projectile Flyby
+15700,157,Enforcer Activate
+15710,158,Enforcer Attack
+15720,159,Enforcer Projectile Hit
+15730,160,Enforcer Projectile Flyby
+15800,161,F’lickta Melee Attack
+15810,162,F’lickta Melee Hit
+15820,163,F’lickta Projectile Attack
+15830,166,F’lickta Projectile Lava Hit
+15840,167,F’lickta Projectile Lava Flyby
+15850,168,F’lickta Dying
+15860,164,F’lickta Projectile Sewage Hit
+16000,177,S’pht’Kr Attack
+16010,178,S’pht’Kr Projectile Hit
+16020,179,S’pht’Kr Projectile Flyby
+16030,180,S’pht’Kr Being Hit
+16040,181,S’pht’Kr Exploding
+17000,182,Tick Chatter
+17020,184,Tick Flapping
+18000,30,SMG Firing
+18010,31,SMG Reloading
+18100,203,VacBob Wail
+18110,204,VacBob Scream
+18120,205,VacBob Hit
+18130,206,VacBob Chatter
+18140,207,Assimilated VacBob Chatter
+18150,208,VacBob Trash Talk
+18160,209,VacBob Apology
+18170,210,VacBob Activation
+18180,211,VacBob Clear
+18190,212,VacBob Angry (Stop Shooting Me You Bastard)
+18200,213,VacBob Secure
+18210,214,VacBob Kill the Player
+19000,108,Walking in Water
+19010,109,Exiting Water
+19020,110,Entering Water
+19060,115,Entering Lava
+19070,116,Exiting Lava
+19100,111,Small Water Splash
+19120,113,Large Water Splash
+19130,118,Small Lava Splash
+19150,120,Large Lava Splash
+19170,122,Entering Sewage
+19180,121,Exiting Sewage
+19190,123,Small Sewage Splash
+19210,125,Large Sewage Splash
