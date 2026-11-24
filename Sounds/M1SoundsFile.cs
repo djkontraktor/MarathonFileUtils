@@ -6,7 +6,7 @@ namespace MarathonFileUtils.Sounds
     {
         public M1SoundsFile(string filePath)
         {
-            List<SoundDefinition> definitions = Utils.OpenM1SoundFile(filePath);
+            List<SoundDefinition> definitions = Utils.OpenM1SoundFile(filePath, out string format);
             LoadSoundsFileBase(definitions, SoundIdLoader.Marathon1SoundIds);
         }
     }

@@ -6,7 +6,7 @@ namespace MarathonFileUtils.Sounds
     {
         public RubiconSoundsFile(string filePath)
         {
-            List<SoundDefinition> definitions = Utils.OpenM2SoundFile(filePath);
+            List<SoundDefinition> definitions = Utils.OpenM2SoundFile(filePath, out string format);
             LoadSoundsFileBase(definitions, SoundIdLoader.RubiconSoundIds);
         }
     }

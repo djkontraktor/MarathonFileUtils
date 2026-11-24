@@ -34,5 +34,17 @@
             }
         }
 
+        protected List<int> GetShape(List<SoundDefinition> definitions)
+        {
+            List<int> permCount = new List<int>();
+
+            foreach (SoundDefinition def in definitions)
+            {
+                permCount.Add(def.Permutations.Count);
+            }
+
+            return permCount;
+        }
+
     }
 }

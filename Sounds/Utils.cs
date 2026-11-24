@@ -9,7 +9,7 @@ namespace MarathonFileUtils.Sounds
 
         #region Public Members
 
-        public static List<SoundDefinition> OpenM1SoundFile(string filePath)
+        public static List<SoundDefinition> OpenM1SoundFile(string filePath, out string format)
         {
             List<SoundDefinition> results = new List<SoundDefinition>();
 
@@ -23,13 +23,13 @@ namespace MarathonFileUtils.Sounds
                     throw new InvalidOperationException("No valid resource file was found.");
                 }
 
-                results = OpenSoundsFileBase(soundFile);
+                results = OpenSoundsFileBase(soundFile, out format);
             }
 
             return results;
         }
 
-        public static List<SoundDefinition> OpenM2SoundFile(string filePath)
+        public static List<SoundDefinition> OpenM2SoundFile(string filePath, out string format)
         {
             List<SoundDefinition> results = new List<SoundDefinition>();
 
@@ -43,13 +43,13 @@ namespace MarathonFileUtils.Sounds
                     throw new InvalidOperationException("The sound file could not be opened.");
                 }
 
-                results = OpenSoundsFileBase(soundFile);
+                results = OpenSoundsFileBase(soundFile, out format);
             }
 
             return results;
         }
 
-        private static List<SoundDefinition> OpenSoundsFileBase(SoundsFileRaw soundFile)
+        private static List<SoundDefinition> OpenSoundsFileBase(SoundsFileRaw soundFile, out string format)
         {
             List<SoundDefinition> results = new List<SoundDefinition>();
 
@@ -103,6 +103,8 @@ namespace MarathonFileUtils.Sounds
                     results.Add(maraSoundDefinition);
                 }
             }
+
+            format = soundFile.ResourceType;
 
             return results;
         }

@@ -26,9 +26,40 @@ namespace MarathonFileUtils.Sounds.LowLevel
             }
         }
 
+        public string ResourceType
+        {
+            get
+            {
+                return TagToString(mTag);
+            }
+        }
+
         public void Dispose()
         {
             Close();
+        }
+
+        #endregion
+
+        #region Private/Protected Properties
+
+        protected uint mTag;
+
+        #endregion
+
+        #region Private/Protected Members
+
+        private static string TagToString(uint tag)
+        {
+            char[] characters =
+            {
+                (char)((tag >> 24) & 0xFF),
+                (char)((tag >> 16) & 0xFF),
+                (char)((tag >> 8) & 0xFF),
+                (char)(tag & 0xFF)
+            };
+
+            return new string(characters);
         }
 
         #endregion

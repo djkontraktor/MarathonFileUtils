@@ -22,7 +22,6 @@ namespace MarathonFileUtils.Sounds.LowLevel
         private const int mHeaderSize = 260;
         private const int mV1Unused = 124;
         private int mVersion;
-        private uint mTag;
         private short mSourceCount;
         private short mSoundCount;
         private readonly List<List<SoundDefinitionRaw>> mDefinitions = new List<List<SoundDefinitionRaw>>();
