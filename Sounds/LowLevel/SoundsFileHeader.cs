@@ -1,4 +1,5 @@
 ﻿using MacFileUtils;
+using MarathonFileUtils.Sounds.DataStructures;
 
 namespace MarathonFileUtils.Sounds.LowLevel
 {

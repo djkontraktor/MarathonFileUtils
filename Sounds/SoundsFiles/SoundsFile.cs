@@ -1,4 +1,6 @@
-﻿namespace MarathonFileUtils.Sounds
+﻿using MarathonFileUtils.Sounds.DataStructures;
+
+namespace MarathonFileUtils.Sounds.SoundsFiles
 {
     public abstract class SoundsFile
     {

@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic.FileIO;
+﻿using MarathonFileUtils.Sounds.DataStructures;
+using Microsoft.VisualBasic.FileIO;
 using System.Globalization;
 
 namespace MarathonFileUtils.Sounds.SoundIds

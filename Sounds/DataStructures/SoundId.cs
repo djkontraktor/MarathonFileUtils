@@ -1,4 +1,4 @@
-﻿namespace MarathonFileUtils.Sounds
+﻿namespace MarathonFileUtils.Sounds.DataStructures
 {
     public class SoundId
     {

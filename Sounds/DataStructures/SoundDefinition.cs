@@ -1,6 +1,6 @@
 ﻿using MarathonFileUtils.Sounds.LowLevel;
 
-namespace MarathonFileUtils.Sounds
+namespace MarathonFileUtils.Sounds.DataStructures
 {
     public class SoundDefinition
     {

@@ -1,6 +1,7 @@
-﻿using MarathonFileUtils.Sounds.SoundIds;
+﻿using MarathonFileUtils.Sounds.DataStructures;
+using MarathonFileUtils.Sounds.SoundIds;
 
-namespace MarathonFileUtils.Sounds
+namespace MarathonFileUtils.Sounds.SoundsFiles
 {
     public class M1SoundsFile : SoundsFile
     {
