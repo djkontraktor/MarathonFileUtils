@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MarathonFileUtils\obj\**" />
+    <EmbeddedResource Remove="MarathonFileUtils\obj\**" />
+    <None Remove="MarathonFileUtils\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Sounds\SoundIds\M1.csv" />
     <None Remove="Sounds\SoundIds\M2.csv" />
     <None Remove="Sounds\SoundIds\Rubicon.csv" />
@@ -25,14 +31,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MacFileUtils\MacFileUtils\MacFileUtils.csproj" />
+    <Folder Include="Images\" />
+    <Folder Include="Maps\" />
+    <Folder Include="MarathonFileUtils\" />
+    <Folder Include="Physics\" />
+    <Folder Include="Shapes\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
-    <Folder Include="Maps\" />
-    <Folder Include="Physics\" />
-    <Folder Include="Shapes\" />
+    <ProjectReference Include="..\MacFileUtils\MacFileUtils.csproj" />
   </ItemGroup>
 
 </Project>

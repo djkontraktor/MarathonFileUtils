@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="../../MacFileUtils/MacFileUtils/MacFileUtils.csproj" />
+  <Project Path="../MacFileUtils/MacFileUtils.csproj" />
   <Project Path="MarathonFileUtils.csproj" />
 </Solution>
